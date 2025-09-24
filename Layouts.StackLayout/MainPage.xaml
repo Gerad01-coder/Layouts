@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layouts.StackLayout.MainPage"
+             BackgroundColor="Aquamarine">
+
+    <VerticalStackLayout
+        Margin="16"
+        Padding="16,8"
+        BackgroundColor="Beige">
+        <Label Text="Probando el stackLayout"
+               Padding="8,4"
+               HorizontalOptions="Fill"
+               VerticalOptions="Start"
+               BackgroundColor="Chocolate"/>
+        <Button Text="Uno"
+                Margin="8,12"/>
+        <Button Text="Dos"
+                VerticalOptions="Center"
+                HorizontalOptions="Start"/>
+        <Button Text="Tres"
+                Margin="4"/>
+        <Button Text="Cuatro"
+                VerticalOptions="End"
+                HorizontalOptions="Center"/>
+        <Button Text="Cinco"
+                Margin="24"/>
+        <Button Text="Seis"
+                VerticalOptions="Fill"
+                HorizontalOptions="End"
+                BackgroundColor="Green"/>
+    </VerticalStackLayout>
+
+</ContentPage>

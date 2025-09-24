@@ -1,0 +1,1 @@
+La solución Layouts muestra ejemplos de usos de layuputs de .NET MAUI.
